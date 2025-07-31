@@ -1,59 +1,70 @@
-# Portfolio
+<h1 align="center">👨‍💻 Florian Irving – Developer Portfolio</h1>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1.
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind-3.4+-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Live-green?style=for-the-badge"/>
+</p>
 
-## Development server
+<p align="center">
+  <b>Modern | Clean | Multilingual | Responsive | Fast</b><br/>
+  <i>Portfolio – Built with 💙 to impress</i>
+</p>
 
-To start a local development server, run:
+---
+
+## 🚀 Live Preview
+
+🌐 **[Jetzt ansehen! →](https://www.irving-webdev.de/)**  
+📦 Gehostet bei: `Strato`  
+🕵️‍♂️ SEO & Performance optimiert
+
+---
+
+## 🧩 Features
+
+✨ **Standalone Angular Components** – Modular, sauber & wartbar  
+🗣️ **i18n Support** – Zweisprachig: 🇩🇪 Deutsch & 🇬🇧 Englisch  
+🎨 **TailwindCSS 3+** – Maximale Flexibilität bei Design & Layout  
+💾 **NgOptimizedImage** – Bestmögliche Bild-Performance  
+⚡ **Signals & Computeds** – Moderne State-Management-Lösung  
+📱 **100% Responsive** – Mobile First, Pixel Perfect  
+🧠 **Typing-Effekt** – Dynamische Texte mit farbigem Highlight  
+📬 **Kontaktformular** – Mit Validierung & Datenschutz-Checkbox  
+📸 **Bilder & Zertifikate** – Hochwertig & selektiv eingebunden  
+🔒 **Barrierefrei & sicher** – Kontrast, Fokusführung & saubere Struktur
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./screenshots/home-dark.png" width="700" alt="Home"/>
+  <br/>
+  <i>Dark Mode – clean, modern, elegant</i>
+</p>
+
+<p align="center">
+  <img src="./screenshots/contact-form.png" width="700" alt="Contact"/>
+  <br/>
+  <i>Custom Contact Section with validation & overlay feedback</i>
+</p>
+
+---
+
+## 📁 Projektstruktur
 
 ```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📦 portfolio
+├─ src/
+│  ├─ app/
+│  │  ├─ features/
+│  │  ├─ shared/
+│  │  ├─ core/
+│  │  └─ app.config.ts
+│  ├─ assets/
+│  ├─ environments/
+│  └─ index.html
+├─ tailwind.config.ts
+├─ angular.json
+└─ README.md

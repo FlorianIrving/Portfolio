@@ -1,0 +1,21 @@
+import {Component, signal} from '@angular/core';
+import {NgOptimizedImage} from "@angular/common";
+import {RouterLink} from "@angular/router";
+
+@Component({
+  selector: 'app-header',
+  imports: [
+    NgOptimizedImage,
+    RouterLink
+  ],
+  templateUrl: './header.html',
+  styleUrl: './header.css'
+})
+export class Header {
+  private readonly _menuOpen = signal(false);
+  menuOpen = this._menuOpen.asReadonly();
+
+  toggleMenu(): void {
+    this._menuOpen.update(open => !open);
+  }
+}

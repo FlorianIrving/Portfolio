@@ -1,1 +1,210 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss';
+
+@layer utilities {
+  .bg-animated-gradient {
+    background: linear-gradient(426deg,
+    hsl(225, 89%, 5%) 0%,
+    hsl(234, 52%, 17%) 50%,
+    hsl(225, 89%, 5%) 100%);
+    background-size: 200% 200%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+@layer utilities {
+  .shine-letter {
+    @apply inline-block text-transparent bg-clip-text bg-gradient-to-r from-[#aaa] via-white to-[#999];
+    animation: letterShimmer 3s ease-in-out infinite;
+  }
+
+  @keyframes letterShimmer {
+    0%, 100% {
+      filter: brightness(1);
+    }
+    50% {
+      filter: brightness(1.8);
+    }
+  }
+}
+
+@layer components {
+  .open .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .open .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 0.3s ease-out forwards;
+  }
+}
+
+@layer components {
+  .open .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .open .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+@layer utilities {
+  .text-metallic {
+    background: linear-gradient(
+      90deg,
+      #979797 0%,
+      #9f9e9e 30%,
+      #777676 50%,
+      #3a3a3a 70%,
+      #292828 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .text-metallic-hover:hover {
+    background: linear-gradient(
+      90deg,
+      #f0f0f0 0%,
+      #ffffff 50%,
+      #e0e0e0 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: brightness(1.2);
+  }
+
+  @layer utilities {
+    .text-metallic-phone {
+      background: linear-gradient(
+        90deg,
+        #d1d1d1,
+        #ffffff,
+        #bcbcbc,
+        #f1f1f1,
+        #d1d1d1
+      );
+      background-size: 200% auto;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: metallicShift 6s ease-in-out infinite;
+    }
+  }
+  @keyframes metallicShift {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  /* Icons */
+  @layer utilities {
+    .orbit-rotate {
+      animation: rotateOrbit 30s linear infinite;
+    }
+  }
+  @layer utilities {
+    @keyframes rotateOrbit {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  @layer utilities {
+    .animate-spin-slow {
+      animation: spin 6s linear infinite;
+    }
+  }
+  @layer utilities {
+    .animate-rainbow {
+      animation: rainbow 5s linear infinite;
+      background-size: 300% 300%;
+    }
+
+    @keyframes rainbow {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+  }
+  @layer utilities {
+    .rainbow-border {
+      background: linear-gradient(270deg,
+      #ff0000,
+      #ff9900,
+      #ffee00,
+      #00ff00,
+      #00ffff,
+      #0000ff,
+      #ff00ff,
+      #ff0000
+      );
+      background-size: 600% 600%;
+      animation: rainbow 8s linear infinite;
+    }
+
+    @keyframes rainbow {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+  }
+}
+
+* {
+  scroll-behavior: smooth;
+}
