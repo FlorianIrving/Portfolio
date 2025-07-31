@@ -8,7 +8,7 @@
 
 <p align="center">
   <b>Modern | Clean | Multilingual | Responsive | Fast</b><br/>
-  <i>Portfolio – Built with 💙 to impress</i>
+  <i>Portfolio – Built with heart and feels</i>
 </p>
 
 ---
@@ -16,39 +16,23 @@
 ## 🚀 Live Preview
 
 🌐 **[Jetzt ansehen! →](https://www.irving-webdev.de/)**  
-📦 Gehostet bei: `Strato`  
-🕵️‍♂️ SEO & Performance optimiert
+📦 Gehostet bei: `24Fire`  
+~~🕵️‍♂️ SEO & Performance optimiert~~
 
 ---
 
 ## 🧩 Features
 
 ✨ **Standalone Angular Components** – Modular, sauber & wartbar  
-🗣️ **i18n Support** – Zweisprachig: 🇩🇪 Deutsch & 🇬🇧 Englisch  
+~~🗣️ **i18n Support** – Zweisprachig: 🇩🇪 Deutsch & 🇬🇧 Englisch~~  
 🎨 **TailwindCSS 3+** – Maximale Flexibilität bei Design & Layout  
 💾 **NgOptimizedImage** – Bestmögliche Bild-Performance  
 ⚡ **Signals & Computeds** – Moderne State-Management-Lösung  
-📱 **100% Responsive** – Mobile First, Pixel Perfect  
+~~📱 **100% Responsive** – Mobile First, Pixel Perfect~~  
 🧠 **Typing-Effekt** – Dynamische Texte mit farbigem Highlight  
-📬 **Kontaktformular** – Mit Validierung & Datenschutz-Checkbox  
-📸 **Bilder & Zertifikate** – Hochwertig & selektiv eingebunden  
-🔒 **Barrierefrei & sicher** – Kontrast, Fokusführung & saubere Struktur
-
----
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="./screenshots/home-dark.png" width="700" alt="Home"/>
-  <br/>
-  <i>Dark Mode – clean, modern, elegant</i>
-</p>
-
-<p align="center">
-  <img src="./screenshots/contact-form.png" width="700" alt="Contact"/>
-  <br/>
-  <i>Custom Contact Section with validation & overlay feedback</i>
-</p>
+~~📬 **Kontaktformular** – Mit Validierung & Datenschutz-Checkbox~~  
+~~📸 **Bilder & Zertifikate** – Hochwertig & selektiv eingebunden~~  
+~~🔒 **Barrierefrei & sicher** – Kontrast, Fokusführung & saubere Struktur~~
 
 ---
 
@@ -56,10 +40,16 @@
 
 ```bash
 📦 portfolio
+├─ public/
+│  ├─ icons/
+│  ├─ logos/
+│  ├─ profile/
+│  ├─ projects/
+│  ├─ favicon.ico/
 ├─ src/
 │  ├─ app/
-│  │  ├─ features/
-│  │  ├─ shared/
+│  │  ├─ components/
+│  │  ├─ pages/
 │  │  ├─ core/
 │  │  └─ app.config.ts
 │  ├─ assets/
