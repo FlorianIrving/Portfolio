@@ -3,3 +3,34 @@
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 8px 8px;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.bar {
+  transform-origin: center;
+}
+
+button.open .bar:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+
+button.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+button.open .bar:last-child {
+  transform: translateY(-8px) rotate(-45deg);
+}

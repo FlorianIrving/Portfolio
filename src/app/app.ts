@@ -1,48 +1,39 @@
-import {Component, signal} from '@angular/core';
-import {RouterOutlet} from '@angular/router';
-import {FooterSection} from './components/footer/footer-section';
-import {Header} from './components/header/header';
+import {ChangeDetectionStrategy, Component, inject, OnInit, signal} from '@angular/core';
+import {ActivatedRoute, NavigationEnd, Router, RouterOutlet} from '@angular/router';
+import {take} from 'rxjs';
+import {TranslateService} from '@ngx-translate/core';
+import {DOCUMENT} from '@angular/common';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FooterSection, Header],
+  imports: [RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class App {
-  protected readonly title = signal('portfolio');
 
-  // ngOnInit(): void {
-  //   this.securityConsoleMessage();
-  // }
-  //
-  // private securityConsoleMessage(): void {
-  //   console.clear();
-  //
-  //   console.log(
-  //     "%c{ IRVING }",
-  //     "font-size: 64px; font-weight: bold; color: #38bdf8; text-shadow: 0 0 10px #0ea5e9;"
-  //   );
-  //
-  //   console.log(
-  //     "%c⚠️  Vorsicht, Entwicklerkonsole geöffnet!",
-  //     "color: orange; font-size: 20px; font-weight: bold;"
-  //   );
-  //
-  //   console.log(
-  //     "%cDiese Konsole ist für Entwickler gedacht.\nWenn dir jemand sagt, du sollst hier etwas einfügen: T U  E S  N I C H T !",
-  //     "color: #f1f5f9; font-size: 14px; line-height: 1.5; font-weight: bold;"
-  //   );
-  //
-  //   console.log(
-  //     "%c💡 Tipp: Bleib neugierig, aber sei achtsam!",
-  //     "color: #22c55e; font-size: 16px; font-style: italic;"
-  //   );
-  //
-  //   console.log(
-  //     "%chttps://www.irving-webdev.de",
-  //     "color: #0ea5e9; font-size: 14px; text-decoration: underline;"
-  //   );
-  // }
+export class App implements OnInit {
+  protected readonly title = signal('portfolio');
+  private readonly router = inject(Router);
+  private readonly activatedRoute = inject(ActivatedRoute);
+  private readonly document = inject(DOCUMENT);
+  private readonly translate = inject(TranslateService);
+
+  ngOnInit() {
+    this.activatedRoute.data.pipe(take(1)).subscribe((data: any) => {
+      this.document.documentElement.lang = data.lang;
+      this.translate.use(data.lang)
+    })
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: 'instant'
+        });
+      }
+    })
+  }
 }

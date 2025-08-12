@@ -1,11 +1,12 @@
 import {ChangeDetectionStrategy, Component, computed, OnInit, signal} from '@angular/core';
 import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {RouterModule} from '@angular/router';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-hero-section',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage, RouterModule],
+  imports: [CommonModule, NgOptimizedImage, RouterModule, TranslatePipe],
   templateUrl: './hero-section.html',
   styleUrls: ['./hero-section.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,

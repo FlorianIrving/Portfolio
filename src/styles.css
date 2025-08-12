@@ -205,6 +205,16 @@
   }
 }
 
+app-root, .content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
 * {
   scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
 }

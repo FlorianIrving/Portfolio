@@ -1,8 +1,7 @@
 import 'zone.js';
 import {bootstrapApplication} from '@angular/platform-browser';
 import {App} from './app/app';
-import {provideRouter} from '@angular/router';
-import {routes} from './app/app.routes';
+import {appConfig} from './app/app.config';
 
 const consoleIntroMessages = [
   {
@@ -29,6 +28,5 @@ consoleIntroMessages.forEach((msg, index) => {
   setTimeout(() => console.log(`%c${msg.text}`, msg.style), index * 800);
 });
 
-bootstrapApplication(App, {
-  providers: [provideRouter(routes)]
-}).catch((err) => console.error(err));
+bootstrapApplication(App, appConfig)
+  .catch((err) => console.error(err));

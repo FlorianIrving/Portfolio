@@ -1,50 +1,70 @@
-<header class="p-3 max-w-[1440px] mx-auto px-4 sticky top-0 z-50 hero-gradient headerBackground">
-  <nav
-    class="w-[100%] max-w-1xl mx-auto border border-white/30 rounded-xl backdrop-blur-md bg-white/5 transition-all duration-500 ease-in-out">
-    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 flex justify-between items-center">
-      <div class="flex">
-        <a class="block" href="/">
-          <img alt="Logo" class="w-32 h-auto mx-auto drop-shadow-md" height="65" ngSrc="/logos/logo.png" priority
-               width="97">
-        </a>
-      </div>
-      <button
-        (click)="toggleMenu()"
-        [class.open]="menuOpen()"
-        aria-label="Menü öffnen"
-        class="lg:hidden relative z-50 flex flex-col justify-center items-center w-10 h-10 rounded-md"
-        type="button"
-      >
-        <span class="bar transition-all duration-300 w-6 h-0.5 bg-gray-300 rounded mb-1"></span>
-        <span class="bar transition-all duration-300 w-6 h-0.5 bg-gray-300 rounded mb-1"></span>
-        <span class="bar transition-all duration-300 w-6 h-0.5 bg-gray-300 rounded"></span>
-      </button>
-      @if (!menuOpen()) {
+<header class="hero-gradient headerBackground">
+  <div class="p-3 max-w-[1440px] mx-auto px-4">
+    <nav
+      class="w-[100%] max-w-1xl mx-auto border border-white/30 rounded-xl backdrop-blur-md bg-white/5 transition-all duration-500 ease-in-out">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 flex justify-between items-center">
+        <div>
+          <a class="flex items-center w-40" routerLink="/">
+            <img alt="Logo" class="w-20 h-auto drop-shadow-md md:hidden"
+                 height="32"
+                 ngSrc="/logos/favicon_wo_bg.png"
+                 priority
+                 width="32">
+          </a>
+          <a class="flex items-center w-40" routerLink="/">
+            <img alt="Logo groß" class="w-32 h-auto drop-shadow-md hidden md:block" height="107"
+                 ngSrc="/logos/SVG-01.svg"
+                 priority
+                 width="160">
+          </a>
+        </div>
+        <button
+          (click)="toggleMenu()"
+          [class.open]="menuOpen()"
+          aria-label="Menü öffnen"
+          class="lg:hidden relative z-50 flex flex-col justify-center items-center w-10 h-10 rounded-md"
+          type="button"
+        >
+          <span class="bar transition-all duration-300 w-6 h-0.5 bg-gray-300 rounded mb-1"></span>
+          <span class="bar transition-all duration-300 w-6 h-0.5 bg-gray-300 rounded mb-1"></span>
+          <span class="bar transition-all duration-300 w-6 h-0.5 bg-gray-300 rounded"></span>
+        </button>
+
         <div class="hidden lg:block">
           <div class="ml-10 flex items-baseline space-x-4">
-            <a (click)="toggleMenu()" class="text-metallic text-lg font-medium text-metallic-hover" href="#">Home</a>
-            <a (click)="toggleMenu()" class="text-metallic text-lg font-medium text-metallic-hover" routerLink="/about">About</a>
-            <a (click)="toggleMenu()" class="text-metallic text-lg font-medium text-metallic-hover"
-               routerLink="/projects">Projects</a>
-            <a (click)="toggleMenu()" class="text-metallic text-lg font-medium text-metallic-hover"
-               routerLink="/certificates">Certificates</a>
-            <a (click)="toggleMenu()" class="text-metallic text-lg font-medium text-metallic-hover"
-               routerLink="/contact">Contact</a>
+            <a class="text-metallic text-lg font-medium text-metallic-hover"
+               routerLink="/">{{ "header.navBar.home" | translate }}</a>
+            <a class="text-metallic text-lg font-medium text-metallic-hover"
+               routerLink="/about">{{ "header.navBar.about" | translate }}</a>
+            <a class="text-metallic text-lg font-medium text-metallic-hover"
+               routerLink="/projects">{{ "header.navBar.projects" | translate }}</a>
+            <a class="text-metallic text-lg font-medium text-metallic-hover"
+               routerLink="/certificates">{{ "header.navBar.certificates" | translate }}</a>
+            <a class="text-metallic text-lg font-medium text-metallic-hover"
+               routerLink="/contact">{{ "header.navBar.contact" | translate }}</a>
+            <app-lang-switch></app-lang-switch>
           </div>
         </div>
+      </div>
+
+      @if (menuOpen()) {
+        <div
+          class="lg:hidden overflow-hidden transition-all duration-300 ease-in-out max-h-[400px] border-t border-white/20"
+        >
+          <nav class="flex flex-col items-start px-6 py-4 space-y-4 animate-fadeIn">
+            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+               routerLink="/">{{ "header.navBar.home" | translate }}</a>
+            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+               routerLink="/about">{{ "header.navBar.about" | translate }}</a>
+            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+               routerLink="/projects">{{ "header.navBar.projects" | translate }}</a>
+            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+               routerLink="/certificates">{{ "header.navBar.certificates" | translate }}</a>
+            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+               routerLink="/contact">{{ "header.navBar.contact" | translate }}</a>
+          </nav>
+        </div>
       }
-    </div>
-    <div
-      [class.max-h-96]="menuOpen()"
-      class="lg:hidden overflow-hidden transition-[max-height] duration-500 ease-in-out max-h-0 border-t border-transparent"
-    >
-      <nav class=" flex flex-col items-start px-6 py-4 space-y-4 ">
-        <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium" href="#">Home</a>
-        <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium" routerLink="/about">About</a>
-        <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium" routerLink="/projects">Projects</a>
-        <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium" routerLink="/certificates">Certificates</a>
-        <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium" routerLink="/contact">Contact</a>
-      </nav>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </header>

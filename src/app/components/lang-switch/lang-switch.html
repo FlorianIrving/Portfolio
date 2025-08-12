@@ -1,0 +1,23 @@
+<div>
+  <button (click)="toggleLang()" [class.open]="langOpen()" class="text-metallic text-lg font-medium text-metallic-hover"
+          type="button">
+    Default
+  </button>
+
+  @if (langOpen()) {
+    <div class="absolute top-12 right-0 bg-white shadow-lg rounded-lg p-4 z-50">
+      <ul class="space-y-2">
+        <li>
+          <button class="text-metallic text-lg font-medium text-metallic-hover">
+            English
+          </button>
+        </li>
+        <li>
+          <button class="text-metallic text-lg font-medium text-metallic-hover">
+            Deutsch
+          </button>
+        </li>
+      </ul>
+    </div>
+  }
+</div>

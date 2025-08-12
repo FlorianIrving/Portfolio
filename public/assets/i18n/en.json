@@ -1,0 +1,133 @@
+{
+  "header": {
+    "navBar": {
+      "home": "Home",
+      "about": "About me",
+      "projects": "Projects",
+      "certificates": "Certificates",
+      "contact": "Contact me"
+    }
+  },
+  "heroSection": {
+    "title": "I am Florian Irving",
+    "subtitle": "Web development and especially the frontend area are my specialty, I like to turn the wishes and ideas into a working interface and stay in touch with the customer at all times through my tools."
+  },
+  "skillsSection": {
+    "title": "Skills & Service",
+    "subtitleOne": "Scalable SPAs with Signals, Standalone Components & NgOptimizedImage",
+    "subtitleTwo": "Automation, scripting & REST with Django or FastAPI",
+    "subtitleThree": "Interactive & performant UI components",
+    "subtitleFour": "Figma-supported mockups and intuitive user flows"
+  },
+  "projectsSection": {
+    "title": "My projects",
+    "subtitle": "Here are some of my projects I have done.",
+    "projectOne": {
+      "description": "Join is a web-based Kanban board that I developed in a team with Angular inspired by Trello."
+    },
+    "projectTwo": {
+      "description": "A 2D game with HTML5 canvas and JavaScript that gave me hands-on experience in animation and game logic."
+    },
+    "projectThree": {
+      "description": "A modular Discord bot with high performance and ease of use for moderation and individual commands."
+    },
+    "moreProjectsButton": "More projects"
+  },
+  "contactSection": {
+    "partOne": "Hire me to build your",
+    "partTwo": "next project!",
+    "partThree": "These are my skills and services",
+    "hireMeButton": "Hire me"
+  },
+  "footer": {
+    "copyright": "Florian Irving. All rights reserved."
+  },
+  "imprint": {
+    "title": "Imprint",
+    "subtitle": "Information according to § 5 DDG",
+    "representedBy": "Represented by:",
+    "name": "Florian Irving",
+    "contact": {
+      "title": "Contact: Florian Irving",
+      "address": "Musterstraße 123, 12345 Musterstadt",
+      "email": "Write to me!",
+      "phone": "01234/567890"
+    },
+    "headline": "Disclaimer of liability: ",
+    "headlineTwo": "Liability for content",
+    "disclaimer": {
+      "partOne": "Liability for content:",
+      "textOne": "The contents of our pages have been created with the greatest care. However, we cannot assume any liability for the correctness, completeness and topicality of the contents. As a service provider, we are responsible for our own content on these pages in accordance with § 7 (1) DDG and general legislation. According to §§ 8 to 10 DDG, however, we are not obliged as a service provider to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information in accordance with general legislation remain unaffected by this. However, liability in this respect is only possible from the time of knowledge of a specific infringement. As soon as we become aware of such infringements, we will remove this content immediately.",
+      "partTwo": "Liability for links",
+      "textTwo": "Our website contains links to external third-party websites over whose content we have no influence. Therefore, we cannot accept any liability for this third-party content. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of an infringement. If we become aware of any legal infringements, we will remove such links immediately.",
+      "partThree": "Copyright",
+      "textThree": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is identified as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately.",
+      "partFour": "By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.Data protection",
+      "textFour": "The use of our website is generally possible without providing personal data. Insofar as personal data (e.g. name, address or e-mail addresses) is collected on our pages, this is always done on a voluntary basis as far as possible. This data will not be passed on to third parties without your express consent. We would like to point out that data transmission over the Internet (e.g. when communicating by e-mail) may be subject to security vulnerabilities. Complete protection of data against access by third parties is not possible. We hereby expressly prohibit the use of contact data published within the scope of the imprint obligation by third parties for sending unsolicited advertising and information material. The operators of the website expressly reserve the right to take legal action in the event of the unsolicited sending of advertising information, such as spam e-mails.",
+      "partFive": "Google Analytics",
+      "textFive": "This website uses Google Analytics, a web analysis service of Google Inc (''Google''). Google Analytics uses \"cookies\", which are text files placed on your computer, to help the website analyze how users use the site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser, however please note that if you do this you may not be able to use the full functionality of this website. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.",
+      "partSix": "Google AdSense",
+      "textSix": "This website uses Google Adsense, a web advertising service of Google Inc, USA (''Google''). Google Adsense uses so-called ''cookies'' (text files), which are stored on your computer and enable your use of the website to be analyzed. Google Adsense also uses so-called ''web beacons'' (small invisible graphics) to collect information. By using the web beacon, simple actions such as visitor traffic on the website can be recorded and collected. The information generated by the cookie and/or web beacon about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website with regard to the advertisements, compiling reports on website activity and advertisements for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. You can prevent the storage of cookies on your hard disk and the display of web beacons by selecting ''Do not accept cookies'' in your browser settings (in MS Internet Explorer under ''Tools > Internet Options > Privacy > Settings''; in Firefox under ''Tools > Settings > Privacy > Cookies''); however, we would like to point out that in this case you may not be able to use all functions of this website to their full extent. "
+    },
+    "imprintGenerator": {
+      "partOne": "Created with ",
+      "partTwo": "Impressum-Generator.de",
+      "partThree": ", the tool for imprint and ",
+      "partFour": "data protection declaration",
+      "partFive": ". According to a template of the ",
+      "partSix": "Hasselbach law firm"
+    }
+  },
+  "about": {
+    "partOne": "Thank you for taking an interest in me. I love to give free rein to my creativity in design and to visually realize the wishes of my clients, that's how I bring websites and apps to life.",
+    "partTwo": "I have been fascinated by everything to do with computers since my youth. During my training as an electrical engineer, I was also able to gain valuable insights into PLC programming. On my private servers, I run game servers, Discord bots and my own smart home, among other things. I'm constantly coming across new challenges and that's exactly what motivates me: solving problems, learning new things and incorporating my knowledge into new projects.",
+    "partThree": "During my time in the German Armed Forces, I not only proved my ability to work in a team and under pressure, but also learned to keep a cool head in stressful situations. I use these skills today to concentrate on my work in web development and always get the best out of it for my customers."
+  },
+  "projects": {
+    "projectOne": {
+      "title": "Join",
+      "subtitle": "„Join“ is a web-based Kanban board that I developed together as a team - inspired by Trello, with a clear distribution of tasks (planning, implementation, testing), a structured workflow and valuable experience in teamwork, communication and flexibility through the use of Angular."
+    },
+    "projectTwo": {
+      "title": "El Pollo Loco",
+      "subtitle": "This 2D game is a lovingly developed pixel adventure with runaway chickens, funny animations and a challenging final boss. Implemented with HTML5 Canvas and Vanilla JavaScript, my focus was particularly on object-oriented programming, clean structuring, collision detection, game physics and animations and last but not least on fine-tuning for a well-rounded gaming experience."
+    },
+    "projectThree": {
+      "title": "Discord Bot (NDA)",
+      "subtitle": "A versatile Discord bot that organizes your server from A to Z, from automatic user registration, to an efficient ticket system for support requests, to powerful administration and moderation functions."
+    },
+    "projectFour": {
+      "title": "Videoflix backend",
+      "subtitle": "The Videoflix backend is a server-side service that acts as a central interface between the front end and the database. It provides a REST API that is used to manage video streaming content, user accounts and metadata."
+    },
+    "projectFive": {
+      "title": "Coderr",
+      "subtitle": "Coderr is the backend for a freelancing platform that brings customers and developers together. It provides secure registration, authentication, profile management, offer creation, order processing and rating functions."
+    }
+  },
+  "certificates": {
+    "title": "Certificates",
+    "cvText": "The password for the CV can be requested by e-mail."
+  },
+  "contact": {
+    "title": "Very cool, I look forward to hearing from you",
+    "subtitle": "Be open and tell me about your idea, together we can grow!",
+    "info": {
+      "headline": "Let's talk.",
+      "subtitle": "Let's start something together."
+    },
+    "form": {
+      "name": "Your name:",
+      "namePlaceholder": "Your name",
+      "email": "Email address:",
+      "emailPlaceholder": "Your e-mail address",
+      "emailError": "Please enter a valid e-mail address.",
+      "subject": "Subject",
+      "message": "Your message:",
+      "messagePlaceholder": "Your message",
+      "submitButton": "Send message"
+    },
+    "errorMessage": "Please fill in all fields.",
+    "successMessage": "Thank you for your message! I will get back to you as soon as possible."
+  }
+}

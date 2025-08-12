@@ -1,0 +1,45 @@
+<app-content>
+  <div class="flex flex-col flex-1">
+    <div class="hero-gradient bg-animated-gradient h-full w-full">
+      <div class="max-w-[1440px] mx-auto px-4">
+        <section class="flex flex-col items-center text-center">
+          <h1 class="text-5xl pt-10 text-gray-400">{{ "imprint.title" | translate }}</h1>
+          <p class="pt-5 text-lg text-gray-400">{{ "imprint.subtitle" | translate }}</p><br>
+          <p class="pt-10 text-lg text-gray-400 pb-5"><strong>{{ "imprint.representedBy" | translate }}</strong><br>
+            {{ "imprint.name" | translate }}<br>
+          </p>
+          <p class="text-lg text-gray-400 pb-5"><strong>{{ "imprint.contact.title" | translate }}</strong> <br>
+            {{ "imprint.contact.email" | translate }} <a class="text-cyan-400 hover:text-cyan-500"
+                                                         href="mailto:mail@irving.contact">
+              {{ "imprint.contact.email" | translate }}</a><br>
+          </p>
+          <p class="text-lg text-gray-400">
+            <strong>{{ "imprint.headline" | translate }}</strong>
+            <br><br><strong>{{ "imprint.disclaimer.partOne" | translate }}</strong><br>
+            {{ "imprint.disclaimer.textOne" | translate }}
+            <br><br><strong>{{ "imprint.disclaimer.partTwo" | translate }}</strong><br>
+            {{ "imprint.disclaimer.textTwo" | translate }}
+            <br><br><strong>{{ "imprint.disclaimer.partThree" | translate }}</strong><br>
+            {{ "imprint.disclaimer.textThree" | translate }}
+            <br><br><strong>{{ "imprint.disclaimer.partFour" | translate }}</strong><br>
+            {{ "imprint.disclaimer.textFour" | translate }}<br>
+            <br><br><strong>{{ "imprint.disclaimer.partFive" | translate }}</strong><br>
+            {{ "imprint.disclaimer.textFive" | translate }}
+            <br><br><strong>{{ "imprint.disclaimer.partSix" | translate }}</strong><br>
+            {{ "imprint.disclaimer.textSix" | translate }}</p><br>
+          <p class="text-lg text-gray-400">
+            {{ "imprint.imprintGenerator.partOne" | translate }}<a href="https://impressum-generator.de" rel="dofollow">
+            {{ "imprint.imprintGenerator.partTwo" | translate }}</a>
+            {{ "imprint.imprintGenerator.partThree" | translate }}
+            <a href="https://impressum-generator.de/datenschutz-generator" rel="dofollow">
+              {{ "imprint.imprintGenerator.partFour" | translate }}</a>
+            {{ "imprint.imprintGenerator.partFive" | translate }}
+            <a
+              href="https://www.kanzlei-hasselbach.de/" rel="dofollow">
+              {{ "imprint.imprintGenerator.partSix" | translate }}</a>.
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>
+</app-content>

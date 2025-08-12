@@ -1,30 +1,94 @@
-<section class="hero-gradient bg-animated-gradient pb-30" id="projectsTab">
-  <section class="max-w-[1440px] mx-auto px-4">
-    <div>
-      <p class="pt-10 text-lg text-gray-400 pb-5 text-center">Viel Spaß beim Testen!</p>
-    </div>
-    <div class="rainbow-border p-[2px] rounded-xl">
-      <div
-        class="w-full max-w-sm mx-auto bg-[#1a1a1a] text-white rounded-xl shadow-md p-0 flex flex-col items-center space-y-4 transition hover:scale-[1.02] hover:shadow-xl duration-300">
-        <img alt="React Icon" class="w-70 h-50 rounded-xl p-1" src="/projects/Join.png"/>
-        <h4 class="text-lg font-semibold text-center">Join</h4>
-        <p class="text-center text-gray-400 text-xs">// HTML // Angular // Firebase (Backend & Hosting)
-          //</p>
+<app-content>
+  <div class="flex flex-col flex-1">
+    <div class="hero-gradient bg-animated-gradient h-full w-full pb-10">
+      <section class="max-w-[1440px] mx-auto px-4">
         <div>
-          <button
-            class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
-            Testen
-          </button>
-          <button
-            class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
-            Code
-          </button>
+          <p class="pt-10 text-4xl text-gray-400 pb-5 text-center">Viel Spaß beim Testen!</p>
         </div>
-        <p class="mt-2 text-center text-gray-400 text-lg px-5 pb-5">„Join“ ist ein webbasiertes Kanban-Board, das ich
-          gemeinsam im Team entwickelt habe – inspiriert von Trello, mit klarer Aufgabenverteilung (Planung,
-          Umsetzung, Testing), strukturiertem Workflow und wertvollen Erfahrungen in Teamarbeit, Kommunikation und
-          Flexibilität durch den Einsatz von Angular.</p>
-      </div>
+        <section class="flex flex-wrap justify-center items-center gap-6 mt-10">
+          <!-- Cards begin -->
+          <div class="rainbow-border p-[2px] rounded-xl">
+            <div
+              class="w-full max-w-sm mx-auto bg-[#1a1a1a] text-white rounded-xl shadow-md p-0 flex flex-col items-center space-y-4 transition hover:scale-[1.02] hover:shadow-xl duration-300">
+              <img alt="React Icon" class="w-70 h-50 rounded-md mt-3" src="/projectsPic/Join.png"/>
+              <h4 class="text-lg font-semibold text-center">{{ "projects.projectOne.title" | translate }}</h4>
+              <p class="text-center text-gray-400 text-xs">// HTML // Angular // Firebase (Backend & Hosting)
+                //</p>
+              <div>
+                <button (click)="goToLiveJoin()"
+                        class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                  Testen
+                </button>
+                <button (click)="goToGitHubJoin()"
+                        class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                  Code
+                </button>
+              </div>
+              <p
+                class="mt-2 text-center text-gray-400 text-lg px-5 pb-5">{{ "projects.projectOne.subtitle" | translate }}</p>
+            </div>
+          </div>
+          <!-- Cards ending -->
+          <!-- Cars begin -->
+          <div class="rainbow-border p-[2px] rounded-xl">
+            <div
+              class="w-full max-w-sm mx-auto bg-[#1a1a1a] text-white rounded-xl shadow-md p-0 flex flex-col items-center space-y-4 transition hover:scale-[1.02] hover:shadow-xl duration-300">
+              <img alt="React Icon" class="w-70 h-50 rounded-md mt-3" src="/projectsPic/ElPolloLoco.png"/>
+              <h4 class="text-lg font-semibold text-center">{{ "projects.projectTwo.title" | translate }}</h4>
+              <p class="text-center text-gray-400 text-xs">// HTML5 // JavaScript (Vanilla) // CSS3 //</p>
+              <div>
+                <button (click)="goToLiveElPolloLoco()"
+                        class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                  Testen
+                </button>
+                <button (click)="goToGitHubElPolloLoco()"
+                        class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                  Code
+                </button>
+              </div>
+              <p
+                class="mt-2 text-center text-gray-400 text-lg px-5 pb-5">{{ "projects.projectTwo.subtitle" | translate }}</p>
+            </div>
+          </div>
+          <!-- Cars ending -->
+          <!-- Cars begin -->
+          <div class="rainbow-border p-[2px] rounded-xl">
+            <div
+              class="w-full max-w-sm mx-auto bg-[#1a1a1a] text-white rounded-xl shadow-md p-0 flex flex-col items-center space-y-4 transition hover:scale-[1.02] hover:shadow-xl duration-300">
+              <img alt="React Icon" class="w-70 h-50 rounded-md mt-3" src="/projectsPic/DiscordBot.png"/>
+              <h4 class="text-lg font-semibold text-center">{{ "projects.projectThree.title" | translate }}</h4>
+              <p class="text-center text-gray-400 text-xs">// Python // Discord.js // JavaScript (ES6+) //</p>
+              <p
+                class="mt-2 text-center text-gray-400 text-lg px-5 pb-5">{{ "projects.projectThree.subtitle" | translate }}</p>
+            </div>
+          </div>
+          <!-- Cars ending -->
+          <!-- Cars begin -->
+          <div class="rainbow-border p-[2px] rounded-xl">
+            <div
+              class="w-full max-w-sm mx-auto bg-[#1a1a1a] text-white rounded-xl shadow-md p-0 flex flex-col items-center space-y-4 transition hover:scale-[1.02] hover:shadow-xl duration-300">
+              <img alt="React Icon" class="w-70 h-50 rounded-md mt-3" src="/projectsPic/DiscordBot.png"/>
+              <h4 class="text-lg font-semibold text-center">{{ "projects.projectFour.title" | translate }}</h4>
+              <p class="text-center text-gray-400 text-xs">// Django // Pytest // PostgreSQL // JWT //</p>
+              <p
+                class="mt-2 text-center text-gray-400 text-lg px-5 pb-5">{{ "projects.projectFour.subtitle" | translate }}</p>
+            </div>
+          </div>
+          <!-- Cars ending -->
+          <!-- Cars begin -->
+          <div class="rainbow-border p-[2px] rounded-xl">
+            <div
+              class="w-full max-w-sm mx-auto bg-[#1a1a1a] text-white rounded-xl shadow-md p-0 flex flex-col items-center space-y-4 transition hover:scale-[1.02] hover:shadow-xl duration-300">
+              <img alt="React Icon" class="w-70 h-50 rounded-md mt-3" src="/projectsPic/DiscordBot.png"/>
+              <h4 class="text-lg font-semibold text-center">{{ "projects.projectFive.title" | translate }}</h4>
+              <p class="text-center text-gray-400 text-xs">// Django 5.2 // SQLite // JSON (REST) //</p>
+              <p
+                class="mt-2 text-center text-gray-400 text-lg px-5 pb-5">{{ "projects.projectFive.subtitle" | translate }}</p>
+            </div>
+          </div>
+          <!-- Cars ending -->
+        </section>
+      </section>
     </div>
-  </section>
-</section>
+  </div>
+</app-content>

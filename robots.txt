@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /imprint/
+Disallow: /imprint
+Allow: /
+
+# Blockiere unnötige Parameter
+Disallow: /*?sessionid=
+Disallow: /*?ref=
+
+# Sitemap für bessere Indexierung
+Sitemap: https://www.irving-webdev.de/sitemap.xml

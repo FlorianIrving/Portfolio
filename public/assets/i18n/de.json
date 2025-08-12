@@ -1,0 +1,133 @@
+{
+  "header": {
+    "navBar": {
+      "home": "Home",
+      "about": "Über Mich",
+      "projects": "Projekte",
+      "certificates": "Zertifikate",
+      "contact": "Kontakt"
+    }
+  },
+  "heroSection": {
+    "title": "Ich bin Florian Irving",
+    "subtitle": "Webentwicklung und insbesondere der Frontend-Bereich sind meine Spezialität, ich mag es, die Wünsche und Ideen in eine funktionierende Oberfläche zu verwandeln und durch meine Tools jederzeit mit dem Kunden in Kontakt zu bleiben."
+  },
+  "skillsSection": {
+    "title": "Skills & Service",
+    "subtitleOne": "Skalierbare SPAs mit Signals, Standalone Components & NgOptimizedImage",
+    "subtitleTwo": "Automatisierung, Scripting & REST mit Django oder FastAPI",
+    "subtitleThree": "Interaktive & performante UI-Komponenten",
+    "subtitleFour": "Figma-gestützte Mockups und intuitive Userflows"
+  },
+  "projectsSection": {
+    "title": "Meine Projekte",
+    "subtitle": "Here are some of my projects I have done.",
+    "projectOne": {
+      "description": "„Join“ ist ein webbasiertes Kanban-Board, das ich im Team mit Angular entwickelt habe wurde inspiriert von Trello."
+    },
+    "projectTwo": {
+      "description": "Ein 2D-Spiel mit HTML5 Canvas und JavaScript, das mir praxisnahe Erfahrung in Animation und Game-Logik brachte."
+    },
+    "projectThree": {
+      "description": "Ein modularer Discord-Bot mit hoher Performance und einfacher Bedienung für Moderation und individuelle Befehle."
+    },
+    "moreProjectsButton": "Mehr Projekte"
+  },
+  "contactSection": {
+    "partOne": "Beauftragen Sie mich mit dem Aufbau Ihres",
+    "partTwo": "nächsten Projektes!",
+    "partThree": "Dies sind meine Skills und Dienstleistungen",
+    "hireMeButton": "Engagieren Sie mich"
+  },
+  "footer": {
+    "copyright": "Florian Irving. Alle Rechte vorbehalten."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "subtitle": "Angaben gemäß § 5 DDG",
+    "representedBy": "Vertreten durch:",
+    "name": "Florian Irving",
+    "contact": {
+      "title": "Kontakt",
+      "address": "Musterstraße 123, 12345 Musterstadt",
+      "email": "Schreibe mir!",
+      "phone": "01234/567890"
+    },
+    "headline": "Haftungsausschluss: ",
+    "headlineTwo": "Haftung für Inhalte",
+    "disclaimer": {
+      "partOne": "Haftung für Inhalte:",
+      "textOne": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 DDG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+      "partTwo": "Haftung für Links",
+      "textTwo": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+      "partThree": "Urheberrecht",
+      "textThree": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.",
+      "partFour": "Datenschutz",
+      "textFour": "Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.",
+      "partFive": "Google Analytics",
+      "textFive": "Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (''Google''). Google Analytics verwendet sog. ''Cookies'', Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglicht. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) wird an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten der Google in Verbindung bringen. Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll umfänglich nutzen können. Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden.",
+      "partSix": "Google AdSense",
+      "textSix": "Diese Website benutzt Google Adsense, einen Webanzeigendienst der Google Inc., USA (''Google''). Google Adsense verwendet sog. ''Cookies'' (Textdateien), die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglicht. Google Adsense verwendet auch sog. ''Web Beacons'' (kleine unsichtbare Grafiken) zur Sammlung von Informationen. Durch die Verwendung des Web Beacons können einfache Aktionen wie der Besucherverkehr auf der Webseite aufgezeichnet und gesammelt werden. Die durch den Cookie und/oder Web Beacon erzeugten Informationen über Ihre Benutzung dieser Website (einschließlich Ihrer IP-Adresse) werden an einen Server von Google in den USA übertragen und dort gespeichert. Google wird diese Informationen benutzen, um Ihre Nutzung der Website im Hinblick auf die Anzeigen auszuwerten, um Reports über die Websiteaktivitäten und Anzeigen für die Websitebetreiber zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen zu erbringen. Auch wird Google diese Informationen gegebenenfalls an Dritte übertragen, sofern dies gesetzlich vorgeschrieben oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Google wird in keinem Fall Ihre IP-Adresse mit anderen Daten der Google in Verbindung bringen. Das Speichern von Cookies auf Ihrer Festplatte und die Anzeige von Web Beacons können Sie verhindern, indem Sie in Ihren Browser-Einstellungen ''keine Cookies akzeptieren'' wählen (Im MS Internet-Explorer unter ''Extras > Internetoptionen > Datenschutz > Einstellung''; im Firefox unter ''Extras > Einstellungen > Datenschutz > Cookies''); wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll umfänglich nutzen können. Durch die Nutzung dieser Website erklären Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck einverstanden."
+    },
+    "imprintGenerator": {
+      "partOne": "Erstellt mit ",
+      "partTwo": "Impressum-Generator.de",
+      "partThree": ", dem Tool für Impressum und ",
+      "partFour": "Datenschutz-Erklärung",
+      "partFive": ". Nach einer Vorlage der ",
+      "partSix": "Kanzlei Hasselbach"
+    }
+  },
+  "about": {
+    "partOne": "Danke, dass du dich näher für mich interessierst. Ich liebe es, meiner Kreativität im Design freien Lauf zu lassen und die Wünsche meiner Kundschaft visuell umzusetzen, so erwecke ich Websites und Apps zum Leben.",
+    "partTwo": "Schon seit meiner Jugend fasziniert mich alles rund um Computer. Während meiner Ausbildung zum Elektrotechniker konnte ich zudem wertvolle Einblicke in die SPS-Programmierung gewinnen. Auf meinen privaten Servern betreibe ich unter anderem Gameserver, Discord-Bots und mein eigenes Smart Home. Dabei stoße ich ständig auf neue Herausforderungen und genau das motiviert mich: Probleme zu lösen, dazuzulernen und mein Wissen in neue Projekte einfließen zu lassen.",
+    "partThree": "Durch meine Zeit bei der Bundeswehr habe ich nicht nur meine Teamfähigkeit und Belastbarkeit unter Beweis gestellt, sondern auch gelernt, in stressigen Situationen einen kühlen Kopf zu bewahren. Diese Fähigkeiten setze ich heute ein, um in der Webentwicklung konzentriert zu arbeiten und stets das Beste für meine Kundschaft herauszuholen."
+  },
+  "projects": {
+    "projectOne": {
+      "title": "Join",
+      "subtitle": "„Join“ ist ein webbasiertes Kanban-Board, das ich gemeinsam im Team entwickelt habe – inspiriert von Trello, mit klarer Aufgabenverteilung (Planung, Umsetzung, Testing), strukturiertem Workflow und wertvollen Erfahrungen in Teamarbeit, Kommunikation und Flexibilität durch den Einsatz von Angular."
+    },
+    "projectTwo": {
+      "title": "El Pollo Loco",
+      "subtitle": "Dieses 2D-Spiel ist ein liebevoll entwickeltes Pixel-Abenteuer mit ausgebüxten Hühnern, witzigen Animationen und einem herausfordernden Endboss. Umgesetzt mit HTML5 Canvas und Vanilla JavaScript lag mein Fokus besonders auf objektorientierter Programmierung, sauberer Strukturierung, Kollisionserkennung, Spielphysik und Animationen und nicht zuletzt auf dem Feintuning für ein rundes Spielerlebnis."
+    },
+    "projectThree": {
+      "title": "Discord Bot (NDA)",
+      "subtitle": "Ein vielseitiger Discord-Bot, der deinen Server von A bis Z organisiert, von der automatischen Benutzerregistrierung, über ein effizientes Ticket-System für Supportanfragen, bis hin zu leistungsstarken Administrations- und Moderationsfunktionen."
+    },
+    "projectFour": {
+      "title": "Videoflix-Backend",
+      "subtitle": "Das Videoflix Backend ist ein serverseitiger Dienst, der als zentrale Schnittstelle zwischen Frontend und Datenbank fungiert. Es stellt eine REST-API bereit, über die Video-Streaming-Inhalte, Benutzerkonten und Metadaten verwaltet werden."
+    },
+    "projectFive": {
+      "title": "Coderr",
+      "subtitle": "Coderr ist das Backend für eine Freelancing-Plattform, die Kunden und Entwickler zusammenbringt. Es bietet sichere Registrierung, Authentifizierung, Profilverwaltung, Angebotserstellung, Auftragsabwicklung und Bewertungsfunktionen."
+    }
+  },
+  "certificates": {
+    "title": "Zertifikate",
+    "cvText": "Das Password für den CV kann per Mail angefragt werden."
+  },
+  "contact": {
+    "title": "Sehr cool, ich freue mich von dir zu hören",
+    "subtitle": "Sei offen und erzähle mir von deiner Idee, gemeinsam können wir daran wachsen!",
+    "info": {
+      "headline": "Let's talk.",
+      "subtitle": "Lass uns gemeinsam etwas starten."
+    },
+    "form": {
+      "name": "Name:",
+      "namePlaceholder": "Dein Name",
+      "email": "Email:",
+      "emailPlaceholder": "Deine E-Mail-Adresse",
+      "emailError": "Bitte gib eine gültige E-Mail-Adresse ein.",
+      "subject": "Betreff",
+      "message": "Nachricht:",
+      "messagePlaceholder": "Deine Nachricht",
+      "submitButton": "Absenden"
+    },
+    "errorMessage": "Bitte fülle alle Felder aus.",
+    "successMessage": "Vielen Dank für Ihre Nachricht! Ich werde mich so schnell wie möglich bei Ihnen melden."
+  }
+}

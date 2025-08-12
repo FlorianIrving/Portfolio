@@ -1,12 +1,15 @@
-<div class="skillsBackground pt-10 pb-10 max-w-[1440px] mx-auto px-4 flex flex-col justify-center text-center">
-  <p class="text-2xl font-extrabold text-gray-400">Hire me to build your</p>
-  <p
-    class="text-4xl pt-5 pb-5 flex justify-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
-    Next Project!</p>
-  <p class="text-2xl font-extrabold text-gray-400">These are my working Skills & Services</p>
-  <button
-    class="mx-auto text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm w-35 px-5 py-2.5 mb-2 mt-5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
-    Hire me
-  </button>
+<div class="skillsBackground">
+  <div class="max-w-[1440px] mx-auto px-4 flex flex-col justify-center text-center pt-10 pb-10 ">
+    <p class="text-2xl font-extrabold text-gray-400">{{ "contactSection.partOne" | translate }}</p>
+    <p
+      class="text-4xl pt-5 pb-5 flex justify-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600">
+      {{ "contactSection.partTwo" | translate }}</p>
+    <p class="text-2xl font-extrabold text-gray-400">{{ "contactSection.partThree" | translate }}</p>
+    <button
+      class="mx-auto text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm w-36 px-5 py-2.5 mb-2 mt-5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+      routerLink="/contact"
+      type="button">
+      {{ "contactSection.hireMeButton" | translate }}
+    </button>
+  </div>
 </div>
-
