@@ -17,7 +17,7 @@
 
 🌐 **[Jetzt ansehen! →](https://www.irving-webdev.de/)**  
 📦 Gehostet bei: `24Fire`  
-~~🕵️‍♂️ SEO & Performance optimiert~~
+🕵️‍♂️ SEO & Performance optimiert
 
 ---
 
@@ -28,10 +28,10 @@
 🎨 **TailwindCSS 3+** – Maximale Flexibilität bei Design & Layout  
 💾 **NgOptimizedImage** – Bestmögliche Bild-Performance  
 ⚡ **Signals & Computeds** – Moderne State-Management-Lösung  
-~~📱 **100% Responsive** – Mobile First, Pixel Perfect~~  
+📱 **100% Responsive** – Mobile First, Pixel Perfect  
 🧠 **Typing-Effekt** – Dynamische Texte mit farbigem Highlight  
-~~📬 **Kontaktformular** – Mit Validierung & Datenschutz-Checkbox~~  
-~~📸 **Bilder & Zertifikate** – Hochwertig & selektiv eingebunden~~  
+📬 **Kontaktformular** – Mit Validierung & ~~Datenschutz-Checkbox~~  
+📸 **Bilder & Zertifikate** – Hochwertig & ~~selektiv eingebunden~~  
 ~~🔒 **Barrierefrei & sicher** – Kontrast, Fokusführung & saubere Struktur~~
 
 ---
