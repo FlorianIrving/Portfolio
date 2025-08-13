@@ -1,14 +1,13 @@
-import {Component} from '@angular/core';
+import {Component, inject} from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
-import {RouterLink} from '@angular/router';
-import {TranslatePipe} from '@ngx-translate/core';
+import {Router} from '@angular/router';
+import {TranslatePipe, TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-footer',
   standalone: true,
   imports: [
     NgOptimizedImage,
-    RouterLink,
     TranslatePipe
   ],
   templateUrl: './footer.html',
@@ -17,4 +16,11 @@ import {TranslatePipe} from '@ngx-translate/core';
 
 export class FooterSection {
   readonly year = new Date().getFullYear();
+
+  private router = inject(Router);
+  private translate = inject(TranslateService);
+
+  public navigate(destination: string): void {
+    void this.router.navigate([(this.translate.getCurrentLang() != 'de' ? '/' + this.translate.getCurrentLang() : '') + destination])
+  }
 }

@@ -4,15 +4,17 @@
       class="w-[100%] max-w-1xl mx-auto border border-white/30 rounded-xl backdrop-blur-md bg-white/5 transition-all duration-500 ease-in-out">
       <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 flex justify-between items-center">
         <div>
-          <a class="flex items-center w-40" routerLink="/">
-            <img alt="Logo" class="w-20 h-auto drop-shadow-md md:hidden"
+          <a (click)="navigate('/')"
+             class="flex items-center w-40">
+            <img alt="Logo" class="w-20 h-auto drop-shadow-md md:hidden cursor-pointer"
                  height="32"
                  ngSrc="/logos/favicon_wo_bg.png"
                  priority
                  width="32">
           </a>
-          <a class="flex items-center w-40" routerLink="/">
-            <img alt="Logo groß" class="w-32 h-auto drop-shadow-md hidden md:block" height="107"
+          <a (click)="navigate('/')"
+             class="flex items-center w-40">
+            <img alt="Logo groß" class="w-32 h-auto drop-shadow-md hidden md:block cursor-pointer" height="107"
                  ngSrc="/logos/SVG-01.svg"
                  priority
                  width="160">
@@ -31,18 +33,17 @@
         </button>
 
         <div class="hidden lg:block">
-          <div class="ml-10 flex items-baseline space-x-4 items-center">
-            <a
-              class="shine-letter text-lg font-medium menuNew"
-              routerLink="/">{{ "header.navBar.home" | translate }}</a>
-            <a class="shine-letter text-lg font-medium menuNew"
-               routerLink="/about">{{ "header.navBar.about" | translate }}</a>
-            <a class="shine-letter text-lg font-medium menuNew"
-               routerLink="/projects">{{ "header.navBar.projects" | translate }}</a>
-            <a class="shine-letter text-lg font-medium menuNew"
-               routerLink="/certificates">{{ "header.navBar.certificates" | translate }}</a>
-            <a class="shine-letter text-lg font-medium menuNew"
-               routerLink="/contact">{{ "header.navBar.contact" | translate }}</a>
+          <div class="ml-10 flex space-x-4 items-center">
+            <a (click)="navigate('/')"
+               class="shine-letter text-lg font-medium menuNew cursor-pointer">{{ "header.navBar.home" | translate }}</a>
+            <a (click)="navigate('/about')"
+               class="shine-letter text-lg font-medium menuNew cursor-pointer">{{ "header.navBar.about" | translate }}</a>
+            <a (click)="navigate('/projects')"
+               class="shine-letter text-lg font-medium menuNew cursor-pointer">{{ "header.navBar.projects" | translate }}</a>
+            <a (click)="navigate('/certificates')"
+               class="shine-letter text-lg font-medium menuNew cursor-pointer">{{ "header.navBar.certificates" | translate }}</a>
+            <a (click)="navigate('/contact')"
+               class="shine-letter text-lg font-medium menuNew cursor-pointer">{{ "header.navBar.contact" | translate }}</a>
             <app-lang-switch></app-lang-switch>
           </div>
         </div>
@@ -53,16 +54,16 @@
           class="lg:hidden overflow-hidden transition-all duration-300 ease-in-out max-h-[400px] border-t border-white/20"
         >
           <nav class="flex flex-col items-start px-6 py-4 space-y-4 animate-fadeIn">
-            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
-               routerLink="/">{{ "header.navBar.home" | translate }}</a>
-            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
-               routerLink="/about">{{ "header.navBar.about" | translate }}</a>
-            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
-               routerLink="/projects">{{ "header.navBar.projects" | translate }}</a>
-            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
-               routerLink="/certificates">{{ "header.navBar.certificates" | translate }}</a>
-            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
-               routerLink="/contact">{{ "header.navBar.contact" | translate }}</a>
+            <a (click)="navigate('/')" class="shine-letter text-lg font-medium cursor-pointer">
+              {{ "header.navBar.home" | translate }}</a>
+            <a (click)="navigate('/about')" class="shine-letter text-lg font-medium cursor-pointer">
+              {{ "header.navBar.about" | translate }}</a>
+            <a (click)="navigate('/projects')" class="shine-letter text-lg font-medium cursor-pointer">
+              {{ "header.navBar.projects" | translate }}</a>
+            <a (click)="navigate('/certificates')" class="shine-letter text-lg font-medium cursor-pointer">
+              {{ "header.navBar.certificates" | translate }}</a>
+            <a (click)="navigate('/contact')" class="shine-letter text-lg font-medium cursor-pointer">
+              {{ "header.navBar.contact" | translate }}</a>
             <app-lang-switch></app-lang-switch>
           </nav>
         </div>

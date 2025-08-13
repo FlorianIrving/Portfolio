@@ -8,18 +8,14 @@
   @if (langOpen()) {
     <div class="absolute top-21 right-25 backdrop-blur-md bg-white/5 transition-all shadow-lg rounded-lg p-4 z-50">
       <ul class="space-y-2">
-        <li>
-          <button (click)="setLang('en'); toggleLang()" [class.selected]="currentLang() === 'en'"
-                  class="shine-letter text-md font-medium menuLangNew">
-            English
-          </button>
-        </li>
-        <li>
-          <button (click)="setLang('de'); toggleLang()" [class.selected]="currentLang() === 'de'"
-                  class="shine-letter text-md font-medium menuLangNew">
-            Deutsch
-          </button>
-        </li>
+        @for (language of languageList; track language) {
+          <li>
+            <a (click)="navigate(language)" [hreflang]="language" [title]="'language.' + language | translate"
+               class="shine-letter text-md font-medium menuLangNew cursor-pointer">
+              {{ 'language.' + language | translate }}
+            </a>
+          </li>
+        }
       </ul>
     </div>
   }

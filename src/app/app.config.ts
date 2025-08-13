@@ -19,9 +19,10 @@ export const appConfig: ApplicationConfig = {
     provideBrowserGlobalErrorListeners(),
     provideHttpClient(),
     provideTranslateService({
+      lang: 'de',
       fallbackLang: 'en',
       loader: provideTranslateHttpLoader({
-        prefix: '/assets/i18n/',
+        prefix: '/i18n/',
         suffix: '.json'
       })
     }),
