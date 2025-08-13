@@ -1,19 +1,22 @@
 <div>
-  <button (click)="toggleLang()" [class.open]="langOpen()" class="text-metallic text-lg font-medium text-metallic-hover"
+  <button (click)="toggleLang()" [class.open]="langOpen()"
+          class="text-metallic text-lg font-medium text-metallic-hover flex items-center"
           type="button">
-    Default
+    <img alt="Language Switch Icon" height="32" ngSrc="/icons/langSwitch.svg" width="32">
   </button>
 
   @if (langOpen()) {
-    <div class="absolute top-12 right-0 bg-white shadow-lg rounded-lg p-4 z-50">
+    <div class="absolute top-21 right-25 backdrop-blur-md bg-white/5 transition-all shadow-lg rounded-lg p-4 z-50">
       <ul class="space-y-2">
         <li>
-          <button class="text-metallic text-lg font-medium text-metallic-hover">
+          <button (click)="setLang('en'); toggleLang()" [class.selected]="currentLang() === 'en'"
+                  class="shine-letter text-md font-medium menuLangNew">
             English
           </button>
         </li>
         <li>
-          <button class="text-metallic text-lg font-medium text-metallic-hover">
+          <button (click)="setLang('de'); toggleLang()" [class.selected]="currentLang() === 'de'"
+                  class="shine-letter text-md font-medium menuLangNew">
             Deutsch
           </button>
         </li>

@@ -84,6 +84,7 @@
     "partThree": "During my time in the German Armed Forces, I not only proved my ability to work in a team and under pressure, but also learned to keep a cool head in stressful situations. I use these skills today to concentrate on my work in web development and always get the best out of it for my customers."
   },
   "projects": {
+    "title": "Have fun testing it out!",
     "projectOne": {
       "title": "Join",
       "subtitle": "„Join“ is a web-based Kanban board that I developed together as a team - inspired by Trello, with a clear distribution of tasks (planning, implementation, testing), a structured workflow and valuable experience in teamwork, communication and flexibility through the use of Angular."

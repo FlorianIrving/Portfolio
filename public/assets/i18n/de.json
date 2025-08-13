@@ -84,6 +84,7 @@
     "partThree": "Durch meine Zeit bei der Bundeswehr habe ich nicht nur meine Teamfähigkeit und Belastbarkeit unter Beweis gestellt, sondern auch gelernt, in stressigen Situationen einen kühlen Kopf zu bewahren. Diese Fähigkeiten setze ich heute ein, um in der Webentwicklung konzentriert zu arbeiten und stets das Beste für meine Kundschaft herauszuholen."
   },
   "projects": {
+    "title": "Viel Spaß beim Testen!",
     "projectOne": {
       "title": "Join",
       "subtitle": "„Join“ ist ein webbasiertes Kanban-Board, das ich gemeinsam im Team entwickelt habe – inspiriert von Trello, mit klarer Aufgabenverteilung (Planung, Umsetzung, Testing), strukturiertem Workflow und wertvollen Erfahrungen in Teamarbeit, Kommunikation und Flexibilität durch den Einsatz von Angular."

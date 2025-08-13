@@ -1,43 +1,31 @@
 import {Routes} from '@angular/router';
 import {App} from './app';
+import {Home} from './pages/home/home';
+import {About} from './pages/about/about';
+import {Projects} from './pages/projects/projects';
+import {Certificates} from './pages/certificates/certificates';
+import {Contact} from './pages/contact/contact';
+import {Imprint} from './pages/imprint/imprint';
 
 
 const childRoutes: Routes = [
   {
-    path: '',
-    loadComponent: () =>
-      import('./pages/home/home')
-        .then(m => m.Home),
+    path: '', component: Home,
   },
   {
-    path: 'about',
-    loadComponent: () =>
-      import('./pages/about/about')
-        .then(m => m.About),
+    path: 'about', component: About,
   },
   {
-    path: 'projects',
-    loadComponent: () =>
-      import('./pages/projects/projects')
-        .then(m => m.Projects),
+    path: 'projects', component: Projects,
   },
   {
-    path: 'certificates',
-    loadComponent: () =>
-      import('./pages/certificates/certificates')
-        .then(m => m.Certificates),
+    path: 'certificates', component: Certificates,
   },
   {
-    path: 'contact',
-    loadComponent: () =>
-      import('./pages/contact/contact')
-        .then(m => m.Contact),
+    path: 'contact', component: Contact,
   },
   {
-    path: 'imprint',
-    loadComponent: () =>
-      import('./pages/imprint/imprint')
-        .then(m => m.Imprint),
+    path: 'imprint', component: Imprint,
   }
 ];
 

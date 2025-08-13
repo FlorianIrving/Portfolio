@@ -4,6 +4,13 @@
   background-size: 8px 8px;
 }
 
+.menuNew:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #22d3ee, #3b82f6, #9333ea);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

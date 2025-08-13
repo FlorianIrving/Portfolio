@@ -31,16 +31,17 @@
         </button>
 
         <div class="hidden lg:block">
-          <div class="ml-10 flex items-baseline space-x-4">
-            <a class="text-metallic text-lg font-medium text-metallic-hover"
-               routerLink="/">{{ "header.navBar.home" | translate }}</a>
-            <a class="text-metallic text-lg font-medium text-metallic-hover"
+          <div class="ml-10 flex items-baseline space-x-4 items-center">
+            <a
+              class="shine-letter text-lg font-medium menuNew"
+              routerLink="/">{{ "header.navBar.home" | translate }}</a>
+            <a class="shine-letter text-lg font-medium menuNew"
                routerLink="/about">{{ "header.navBar.about" | translate }}</a>
-            <a class="text-metallic text-lg font-medium text-metallic-hover"
+            <a class="shine-letter text-lg font-medium menuNew"
                routerLink="/projects">{{ "header.navBar.projects" | translate }}</a>
-            <a class="text-metallic text-lg font-medium text-metallic-hover"
+            <a class="shine-letter text-lg font-medium menuNew"
                routerLink="/certificates">{{ "header.navBar.certificates" | translate }}</a>
-            <a class="text-metallic text-lg font-medium text-metallic-hover"
+            <a class="shine-letter text-lg font-medium menuNew"
                routerLink="/contact">{{ "header.navBar.contact" | translate }}</a>
             <app-lang-switch></app-lang-switch>
           </div>
@@ -52,16 +53,17 @@
           class="lg:hidden overflow-hidden transition-all duration-300 ease-in-out max-h-[400px] border-t border-white/20"
         >
           <nav class="flex flex-col items-start px-6 py-4 space-y-4 animate-fadeIn">
-            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
                routerLink="/">{{ "header.navBar.home" | translate }}</a>
-            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
                routerLink="/about">{{ "header.navBar.about" | translate }}</a>
-            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
                routerLink="/projects">{{ "header.navBar.projects" | translate }}</a>
-            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
                routerLink="/certificates">{{ "header.navBar.certificates" | translate }}</a>
-            <a (click)="toggleMenu()" class="text-metallic-phone text-lg font-medium"
+            <a (click)="toggleMenu()" class="shine-letter text-lg font-medium"
                routerLink="/contact">{{ "header.navBar.contact" | translate }}</a>
+            <app-lang-switch></app-lang-switch>
           </nav>
         </div>
       }

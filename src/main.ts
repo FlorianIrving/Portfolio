@@ -24,9 +24,12 @@ const consoleIntroMessages = [
   }
 ];
 
-consoleIntroMessages.forEach((msg, index) => {
-  setTimeout(() => console.log(`%c${msg.text}`, msg.style), index * 800);
-});
+// setTimeout(() => {
+//   console.clear();
+//   consoleIntroMessages.forEach((msg, index) => {
+//     setTimeout(() => console.log(`%c${msg.text}`, msg.style), index * 800);
+//   });
+// }, 1000);
 
 bootstrapApplication(App, appConfig)
   .catch((err) => console.error(err));
