@@ -1,6 +1,6 @@
 import {Component, inject} from '@angular/core';
 import {Router} from '@angular/router';
-import {TranslatePipe} from "@ngx-translate/core";
+import {TranslatePipe, TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-projects-section',
@@ -12,11 +12,11 @@ import {TranslatePipe} from "@ngx-translate/core";
 })
 export class ProjectsSection {
   private readonly router = inject(Router);
+  private translate = inject(TranslateService);
 
-  goToProjects(): void {
-    this.router.navigate(['/projects'], {
-      fragment: 'projectsTab'
-    });
+
+  public navigate(destination: string): void {
+    void this.router.navigate([(this.translate.getCurrentLang() != 'de' ? '/' + this.translate.getCurrentLang() : '') + destination])
   }
 
   goToGitHubJoin(): void {

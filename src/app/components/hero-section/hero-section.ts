@@ -34,7 +34,7 @@ export class HeroSection implements OnInit {
     // {src: '/icons/vuejs.svg', alt: 'VueJs Icon'},
   ]);
   readonly iconCount = computed(() => this.icons().length);
-  private words = ['Frontend Developer', 'Problem Solver', 'Clean Coder'];
+  private words = ['Fullstack Developer', 'Problem Solver', 'Clean Coder'];
 
   getOrbitTransform(index: number): string {
     const total = this.iconCount();

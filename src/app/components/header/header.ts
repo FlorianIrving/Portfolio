@@ -26,6 +26,6 @@ export class Header {
 
   public navigate(destination: string): void {
     this._menuOpen.update(open => !open);
-    this.router.navigate([(this.translate.getCurrentLang() != 'de' ? '/' + this.translate.getCurrentLang() : '') + destination])
+    void this.router.navigate([(this.translate.getCurrentLang() != 'de' ? '/' + this.translate.getCurrentLang() : '') + destination])
   }
 }

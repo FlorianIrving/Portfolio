@@ -10,6 +10,7 @@
   },
   "heroSection": {
     "title": "I am Florian Irving",
+    "undertitle": "I am",
     "subtitle": "Web development and especially the frontend area are my specialty, I like to turn the wishes and ideas into a working interface and stay in touch with the customer at all times through my tools."
   },
   "skillsSection": {
@@ -81,7 +82,7 @@
   "about": {
     "partOne": "Thank you for taking an interest in me. I love to give free rein to my creativity in design and to visually realize the wishes of my clients, that's how I bring websites and apps to life.",
     "partTwo": "I have been fascinated by everything to do with computers since my youth. During my training as an electrical engineer, I was also able to gain valuable insights into PLC programming. On my private servers, I run game servers, Discord bots and my own smart home, among other things. I'm constantly coming across new challenges and that's exactly what motivates me: solving problems, learning new things and incorporating my knowledge into new projects.",
-    "partThree": "During my time in the German Armed Forces, I not only proved my ability to work in a team and under pressure, but also learned to keep a cool head in stressful situations. I use these skills today to concentrate on my work in web development and always get the best out of it for my customers."
+    "partThree": "During my time in the German Armed Forces, I did not only proved my ability to work in a team and under pressure, but also learned to keep a cool head in stressful situations. I use these skills today to concentrate on my work in the web development and I always get the best results out of my customers."
   },
   "projects": {
     "title": "Have fun testing it out!",
@@ -111,8 +112,8 @@
     "cvText": "The password for the CV can be requested by e-mail."
   },
   "contact": {
-    "title": "Very cool, I look forward to hearing from you",
-    "subtitle": "Be open and tell me about your idea, together we can grow!",
+    "title": "It's cool, I look forward to hearing from you",
+    "subtitle": "Be open and tell me about your ideas and together we can grow!",
     "info": {
       "headline": "Let's talk.",
       "subtitle": "Let's start something together."

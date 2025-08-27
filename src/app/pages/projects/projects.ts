@@ -40,7 +40,7 @@ export class Projects {
     window.open('https://github.com/FlorianIrving/Coderr', '_blank', 'noopener,noreferrer');
   }
 
-  // goToLiveCoderr(): void {
-  //   window.open('https://www.irving-webdev.de/projekte/ElPolloLoco', '_blank', 'noopener,noreferrer');
-  // }
+  goToLiveCoderr(): void {
+    window.open('http://coderr.irving-webdev.de', '_blank', 'noopener,noreferrer');
+  }
 }

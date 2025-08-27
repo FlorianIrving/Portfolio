@@ -10,6 +10,7 @@
   },
   "heroSection": {
     "title": "Ich bin Florian Irving",
+    "undertitle": "Ich bin",
     "subtitle": "Webentwicklung und insbesondere der Frontend-Bereich sind meine Spezialität, ich mag es, die Wünsche und Ideen in eine funktionierende Oberfläche zu verwandeln und durch meine Tools jederzeit mit dem Kunden in Kontakt zu bleiben."
   },
   "skillsSection": {
@@ -112,7 +113,7 @@
   },
   "contact": {
     "title": "Sehr cool, ich freue mich von dir zu hören",
-    "subtitle": "Sei offen und erzähle mir von deiner Idee, gemeinsam können wir daran wachsen!",
+    "subtitle": "Sei offen und erzählen Sie mir von Ihren Ideen, damit wir gemeinsam wachsen können!",
     "info": {
       "headline": "Let's talk.",
       "subtitle": "Lass uns gemeinsam etwas starten."
